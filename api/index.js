@@ -98,16 +98,9 @@ export default async function api (request, response) {
       }
     }
     const body = makeBadge({
-      label: 'visitors',
+      label: 'views',
       message: String(visitors),
-      color: (
-        visitors < 10 ? 'red'
-          : visitors < 50 ? 'orange'
-            : visitors < 100 ? 'yellow'
-              : visitors < 500 ? 'yellowgreen'
-                : visitors < 1000 ? 'green'
-                  : 'brightgreen'
-      )
+      color: '#0068de'
     })
     response.writeHead(200, {
       'Content-Type': 'image/svg+xml'
