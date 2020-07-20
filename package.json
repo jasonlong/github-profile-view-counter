@@ -1,12 +1,12 @@
 {
-  "name": "visitors.vercel.app",
-  "version": "0.0.0",
-  "description": "Visitors badge on Vercel and FaunaDB.",
+  "name": "github-profile-view-counter",
+  "version": "0.0.1",
+  "description": "Hit counter for GitHub profile",
   "main": "api/index.js",
   "scripts": {
     "test": "standard"
   },
-  "repository": "git@github.com:Gerhut/visitors.vercel.app.git",
+  "repository": "https://github.com/jasonlong/github-profile-view-counter",
   "author": "George Cheng <Gerhut@GMail.com>",
   "license": "MIT",
   "private": true,
